@@ -1,0 +1,729 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'angular2-jwt' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of D:\dawnlight\communityApp\communityApp2\package.json
+5 warn package.json communityapp2@ No repository field.
+6 warn package.json communityapp2@ No README data
+7 warn package.json communityapp2@ No license field.
+8 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\angular2\package.json
+9 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\angularfire2\package.json
+10 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\del\package.json
+11 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\es6-shim\package.json
+12 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\firebase\package.json
+13 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\gulp\package.json
+14 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\gulp-watch\package.json
+15 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-angular\package.json
+16 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-browserify-typescript\package.json
+17 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-fonts-copy\package.json
+18 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-html-copy\package.json
+19 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-sass-build\package.json
+20 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-scripts-copy\package.json
+21 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-native\package.json
+22 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionicons\package.json
+23 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\reflect-metadata\package.json
+24 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\run-sequence\package.json
+25 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\rxjs\package.json
+26 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\zone.js\package.json
+27 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\common\package.json
+28 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\compiler\package.json
+29 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\core\package.json
+30 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\platform-browser\package.json
+31 verbose installManyTop reading scoped package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\platform-browser-dynamic\package.json
+32 info package.json firebase@2.4.2 No license field.
+33 info package.json ionic-gulp-fonts-copy@1.0.0 No repository field.
+34 info package.json ionic-gulp-fonts-copy@1.0.0 No license field.
+35 info package.json @angular/compiler@2.0.0-rc.1 No description
+36 info package.json @angular/compiler@2.0.0-rc.1 No repository field.
+37 info package.json @angular/core@2.0.0-rc.1 No description
+38 info package.json @angular/core@2.0.0-rc.1 No repository field.
+39 info package.json @angular/platform-browser@2.0.0-rc.1 No description
+40 info package.json @angular/platform-browser@2.0.0-rc.1 No repository field.
+41 info package.json @angular/common@2.0.0-rc.1 No description
+42 info package.json @angular/common@2.0.0-rc.1 No repository field.
+43 info package.json @angular/platform-browser-dynamic@2.0.0-rc.1 No description
+44 info package.json @angular/platform-browser-dynamic@2.0.0-rc.1 No repository field.
+45 verbose readDependencies loading dependencies from D:\dawnlight\communityApp\communityApp2\package.json
+46 silly cache add args [ 'angular2-jwt', null ]
+47 verbose cache add spec angular2-jwt
+48 silly cache add parsed spec { raw: 'angular2-jwt',
+48 silly cache add   scope: null,
+48 silly cache add   name: 'angular2-jwt',
+48 silly cache add   rawSpec: '',
+48 silly cache add   spec: '*',
+48 silly cache add   type: 'range' }
+49 silly addNamed angular2-jwt@*
+50 verbose addNamed "*" is a valid semver range for angular2-jwt
+51 silly addNameRange { name: 'angular2-jwt', range: '*', hasData: false }
+52 silly mapToRegistry name angular2-jwt
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/angular2-jwt
+56 verbose addNameRange registry:https://registry.npmjs.org/angular2-jwt not in flight; fetching
+57 verbose request uri https://registry.npmjs.org/angular2-jwt
+58 verbose request no auth needed
+59 info attempt registry request try #1 at 3:45:50 PM
+60 verbose request id 9219586c1e282eb4
+61 verbose etag "6MJ0VGNFAUZKXTODLAVU3GHRA"
+62 http request GET https://registry.npmjs.org/angular2-jwt
+63 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT
+64 info attempt registry request try #2 at 3:46:02 PM
+65 verbose etag "6MJ0VGNFAUZKXTODLAVU3GHRA"
+66 http request GET https://registry.npmjs.org/angular2-jwt
+67 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT
+68 info attempt registry request try #3 at 3:47:02 PM
+69 verbose etag "6MJ0VGNFAUZKXTODLAVU3GHRA"
+70 http request GET https://registry.npmjs.org/angular2-jwt
+71 silly get cb [ 304, undefined ]
+72 verbose etag https://registry.npmjs.org/angular2-jwt from cache
+73 verbose get saving angular2-jwt to C:\Users\Lotus\AppData\Roaming\npm-cache\registry.npmjs.org\angular2-jwt\.cache.json
+74 silly addNameRange number 2 { name: 'angular2-jwt', range: '*', hasData: true }
+75 silly addNameRange versions [ 'angular2-jwt',
+75 silly addNameRange   [ '0.1.0',
+75 silly addNameRange     '0.1.1',
+75 silly addNameRange     '0.1.2',
+75 silly addNameRange     '0.1.3',
+75 silly addNameRange     '0.1.4',
+75 silly addNameRange     '0.1.5',
+75 silly addNameRange     '0.1.6',
+75 silly addNameRange     '0.1.7',
+75 silly addNameRange     '0.1.8',
+75 silly addNameRange     '0.1.9',
+75 silly addNameRange     '0.1.10',
+75 silly addNameRange     '0.1.11',
+75 silly addNameRange     '0.1.12',
+75 silly addNameRange     '0.1.13',
+75 silly addNameRange     '0.1.14',
+75 silly addNameRange     '0.1.15' ] ]
+76 silly addNamed angular2-jwt@0.1.15
+77 verbose addNamed "0.1.15" is a plain semver version for angular2-jwt
+78 silly cache afterAdd angular2-jwt@0.1.15
+79 verbose afterAdd C:\Users\Lotus\AppData\Roaming\npm-cache\angular2-jwt\0.1.15\package\package.json not in flight; writing
+80 verbose afterAdd C:\Users\Lotus\AppData\Roaming\npm-cache\angular2-jwt\0.1.15\package\package.json written
+81 silly install resolved [ { name: 'angular2-jwt',
+81 silly install resolved     version: '0.1.15',
+81 silly install resolved     description: 'Helper library for handling JWTs in Angular 2',
+81 silly install resolved     repository:
+81 silly install resolved      { type: 'git',
+81 silly install resolved        url: 'git+https://github.com/auth0/angular2-jwt.git' },
+81 silly install resolved     scripts: { dev: 'tsc --watch', prepublish: 'typings install && tsc' },
+81 silly install resolved     keywords: [ 'angular', 'angular2', 'jwt', 'authentication' ],
+81 silly install resolved     author: { name: 'ryanchenkie' },
+81 silly install resolved     license: 'MIT',
+81 silly install resolved     bugs: { url: 'https://github.com/auth0/angular2-jwt/issues' },
+81 silly install resolved     main: 'angular2-jwt.js',
+81 silly install resolved     typings: './angular2-jwt.d.ts',
+81 silly install resolved     homepage: 'https://github.com/auth0/angular2-jwt#readme',
+81 silly install resolved     devDependencies:
+81 silly install resolved      { '@angular/core': '^2.0.0-rc.1',
+81 silly install resolved        '@angular/http': '^2.0.0-rc.1',
+81 silly install resolved        'es6-shim': '^0.35.0',
+81 silly install resolved        'reflect-metadata': '0.1.2',
+81 silly install resolved        rxjs: '5.0.0-beta.6',
+81 silly install resolved        typescript: '^1.8.10',
+81 silly install resolved        typings: '^0.7.12',
+81 silly install resolved        'zone.js': '~0.6.12' },
+81 silly install resolved     peerDependencies:
+81 silly install resolved      { '@angular/core': '^2.0.0-rc.1',
+81 silly install resolved        '@angular/http': '^2.0.0-rc.1',
+81 silly install resolved        rxjs: '5.0.0-beta.6' },
+81 silly install resolved     gitHead: '0e3a39a73697e4cd5d05ce5e01d89c0beb4b0c6d',
+81 silly install resolved     _id: 'angular2-jwt@0.1.15',
+81 silly install resolved     _shasum: '855a8e14ee639a4b2eb4c94c43d58a95ab0fc12a',
+81 silly install resolved     _from: 'angular2-jwt@*',
+81 silly install resolved     _npmVersion: '3.8.7',
+81 silly install resolved     _nodeVersion: '4.4.3',
+81 silly install resolved     _npmUser: { name: 'ryanchenkie', email: 'ryanchenkie@gmail.com' },
+81 silly install resolved     dist:
+81 silly install resolved      { shasum: '855a8e14ee639a4b2eb4c94c43d58a95ab0fc12a',
+81 silly install resolved        tarball: 'https://registry.npmjs.org/angular2-jwt/-/angular2-jwt-0.1.15.tgz' },
+81 silly install resolved     maintainers: [ [Object] ],
+81 silly install resolved     _npmOperationalInternal:
+81 silly install resolved      { host: 'packages-16-east.internal.npmjs.com',
+81 silly install resolved        tmp: 'tmp/angular2-jwt-0.1.15.tgz_1462830903667_0.2271628282032907' },
+81 silly install resolved     directories: {},
+81 silly install resolved     _resolved: 'https://registry.npmjs.org/angular2-jwt/-/angular2-jwt-0.1.15.tgz',
+81 silly install resolved     readme: 'ERROR: No README data found!' } ]
+82 info install angular2-jwt@0.1.15 into D:\dawnlight\communityApp\communityApp2
+83 info installOne angular2-jwt@0.1.15
+84 verbose installOne of angular2-jwt to D:\dawnlight\communityApp\communityApp2 not in flight; installing
+85 verbose lock using C:\Users\Lotus\AppData\Roaming\npm-cache\_locks\angular2-jwt-8cdae23cb82ca432.lock for D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt
+86 silly install write writing angular2-jwt 0.1.15 to D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt
+87 verbose unbuild node_modules\angular2-jwt
+88 silly gentlyRm D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt is being purged from base D:\dawnlight\communityApp\communityApp2
+89 verbose gentlyRm don't care about contents; nuking D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt
+90 verbose tar unpack C:\Users\Lotus\AppData\Roaming\npm-cache\angular2-jwt\0.1.15\package.tgz
+91 verbose tar unpacking to D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt
+92 silly gentlyRm D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt is being purged
+93 verbose gentlyRm don't care about contents; nuking D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt
+94 silly gunzTarPerm modes [ '777', '666' ]
+95 silly gunzTarPerm extractEntry package.json
+96 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+97 silly gunzTarPerm extractEntry .npmignore
+98 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+99 silly gunzTarPerm extractEntry README.md
+100 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+101 silly gunzTarPerm extractEntry LICENSE
+102 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+103 silly gunzTarPerm extractEntry angular2-jwt.js
+104 silly gunzTarPerm modified mode [ 'angular2-jwt.js', 420, 438 ]
+105 silly gunzTarPerm extractEntry angular2-jwt.js.map
+106 silly gunzTarPerm modified mode [ 'angular2-jwt.js.map', 420, 438 ]
+107 silly gunzTarPerm extractEntry angular2-jwt.d.ts
+108 silly gunzTarPerm modified mode [ 'angular2-jwt.d.ts', 420, 438 ]
+109 silly gunzTarPerm extractEntry angular2-jwt.ts
+110 silly gunzTarPerm modified mode [ 'angular2-jwt.ts', 420, 438 ]
+111 silly gunzTarPerm extractEntry typings/browser/ambient/es6-shim/index.d.ts
+112 silly gunzTarPerm modified mode [ 'typings/browser/ambient/es6-shim/index.d.ts', 420, 438 ]
+113 silly gunzTarPerm extractEntry typings/browser.d.ts
+114 silly gunzTarPerm modified mode [ 'typings/browser.d.ts', 420, 438 ]
+115 silly gunzTarPerm extractEntry typings/main/ambient/es6-shim/index.d.ts
+116 silly gunzTarPerm modified mode [ 'typings/main/ambient/es6-shim/index.d.ts', 420, 438 ]
+117 silly gunzTarPerm extractEntry typings/main.d.ts
+118 silly gunzTarPerm modified mode [ 'typings/main.d.ts', 420, 438 ]
+119 silly gunzTarPerm extractEntry tsconfig.json
+120 silly gunzTarPerm modified mode [ 'tsconfig.json', 420, 438 ]
+121 silly gunzTarPerm extractEntry typings.json
+122 silly gunzTarPerm modified mode [ 'typings.json', 420, 438 ]
+123 verbose write writing to D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt\package.json
+124 info preinstall angular2-jwt@0.1.15
+125 verbose readDependencies loading dependencies from D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt\package.json
+126 silly prepareForInstallMany adding @angular/http@^2.0.0-rc.1 from angular2-jwt peerDependencies
+127 silly prepareForInstallMany adding rxjs@5.0.0-beta.6 from angular2-jwt peerDependencies
+128 warn peerDependencies The peer dependency @angular/http@^2.0.0-rc.1 included from angular2-jwt will no
+129 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+130 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+131 warn peerDependencies The peer dependency rxjs@5.0.0-beta.6 included from angular2-jwt will no
+132 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+133 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+134 verbose readDependencies loading dependencies from D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt\package.json
+135 silly install resolved []
+136 verbose about to build D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt
+137 info build D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt
+138 info linkStuff angular2-jwt@0.1.15
+139 silly linkStuff angular2-jwt@0.1.15 has D:\dawnlight\communityApp\communityApp2\node_modules as its parent node_modules
+140 verbose linkBins angular2-jwt@0.1.15
+141 verbose linkMans angular2-jwt@0.1.15
+142 verbose rebuildBundles angular2-jwt@0.1.15
+143 info install angular2-jwt@0.1.15
+144 info postinstall angular2-jwt@0.1.15
+145 verbose readDependencies loading dependencies from D:\dawnlight\communityApp\communityApp2\package.json
+146 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\angular2\package.json
+147 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt\package.json
+148 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\angularfire2\package.json
+149 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\del\package.json
+150 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\es6-shim\package.json
+151 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\firebase\package.json
+152 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\gulp\package.json
+153 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\gulp-watch\package.json
+154 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-angular\package.json
+155 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-browserify-typescript\package.json
+156 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-fonts-copy\package.json
+157 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-html-copy\package.json
+158 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-sass-build\package.json
+159 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-scripts-copy\package.json
+160 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-native\package.json
+161 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionicons\package.json
+162 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\reflect-metadata\package.json
+163 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\run-sequence\package.json
+164 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\rxjs\package.json
+165 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\zone.js\package.json
+166 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\common\package.json
+167 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\compiler\package.json
+168 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\core\package.json
+169 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\platform-browser\package.json
+170 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\platform-browser-dynamic\package.json
+171 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\.bin\gulp\package.json
+172 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\.bin\gulp.cmd\package.json
+173 verbose already installed skipping rxjs@5.0.0-beta.6 D:\dawnlight\communityApp\communityApp2
+174 silly cache add args [ '@angular/http@^2.0.0-rc.1', null ]
+175 verbose cache add spec @angular/http@^2.0.0-rc.1
+176 silly cache add parsed spec { raw: '@angular/http@^2.0.0-rc.1',
+176 silly cache add   scope: '@angular',
+176 silly cache add   name: '@angular/http',
+176 silly cache add   rawSpec: '^2.0.0-rc.1',
+176 silly cache add   spec: '>=2.0.0-rc.1 <3.0.0',
+176 silly cache add   type: 'range' }
+177 silly addNamed @angular/http@>=2.0.0-rc.1 <3.0.0
+178 verbose addNamed ">=2.0.0-rc.1 <3.0.0" is a valid semver range for @angular/http
+179 silly addNameRange { name: '@angular/http',
+179 silly addNameRange   range: '>=2.0.0-rc.1 <3.0.0',
+179 silly addNameRange   hasData: false }
+180 silly mapToRegistry name @angular/http
+181 silly mapToRegistry scope (from package name) @angular
+182 verbose mapToRegistry no registry URL found in name for scope @angular
+183 silly mapToRegistry using default registry
+184 silly mapToRegistry registry https://registry.npmjs.org/
+185 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fhttp
+186 verbose addNameRange registry:https://registry.npmjs.org/@angular%2fhttp not in flight; fetching
+187 verbose request uri https://registry.npmjs.org/@angular%2fhttp
+188 verbose request no auth needed
+189 info attempt registry request try #1 at 3:47:03 PM
+190 verbose etag "977RGYB97ZA63D5TEORQ1BXOS"
+191 http request GET https://registry.npmjs.org/@angular%2fhttp
+192 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT
+193 info attempt registry request try #2 at 3:47:13 PM
+194 verbose etag "977RGYB97ZA63D5TEORQ1BXOS"
+195 http request GET https://registry.npmjs.org/@angular%2fhttp
+196 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT
+197 info attempt registry request try #3 at 3:48:13 PM
+198 verbose etag "977RGYB97ZA63D5TEORQ1BXOS"
+199 http request GET https://registry.npmjs.org/@angular%2fhttp
+200 silly get cb [ 304, undefined ]
+201 verbose etag https://registry.npmjs.org/@angular%2fhttp from cache
+202 verbose get saving @angular/http to C:\Users\Lotus\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fhttp\.cache.json
+203 silly addNameRange number 2 { name: '@angular/http',
+203 silly addNameRange   range: '>=2.0.0-rc.1 <3.0.0',
+203 silly addNameRange   hasData: true }
+204 silly addNameRange versions [ '@angular/http',
+204 silly addNameRange   [ '0.0.0-0',
+204 silly addNameRange     '0.0.0-1',
+204 silly addNameRange     '0.0.0-2',
+204 silly addNameRange     '0.0.0-3',
+204 silly addNameRange     '0.0.0-4',
+204 silly addNameRange     '0.0.0-5',
+204 silly addNameRange     '0.0.0-6',
+204 silly addNameRange     '0.0.0-7',
+204 silly addNameRange     '2.0.0-rc.0',
+204 silly addNameRange     '2.0.0-rc.1' ] ]
+205 silly addNamed @angular/http@2.0.0-rc.1
+206 verbose addNamed "2.0.0-rc.1" is a plain semver version for @angular/http
+207 silly cache afterAdd @angular/http@2.0.0-rc.1
+208 verbose afterAdd C:\Users\Lotus\AppData\Roaming\npm-cache\@angular\http\2.0.0-rc.1\package\package.json not in flight; writing
+209 verbose afterAdd C:\Users\Lotus\AppData\Roaming\npm-cache\@angular\http\2.0.0-rc.1\package\package.json written
+210 silly install resolved [ { name: '@angular/http',
+210 silly install resolved     version: '2.0.0-rc.1',
+210 silly install resolved     main: 'index.js',
+210 silly install resolved     'jsnext:main': 'esm/index.js',
+210 silly install resolved     typings: 'index.d.ts',
+210 silly install resolved     author: { name: 'angular' },
+210 silly install resolved     license: 'MIT',
+210 silly install resolved     peerDependencies: { rxjs: '5.0.0-beta.6', '@angular/core': '2.0.0-rc.1' },
+210 silly install resolved     _id: '@angular/http@2.0.0-rc.1',
+210 silly install resolved     scripts: {},
+210 silly install resolved     _shasum: '9be6485e74f4edbcdc856f04235d9b467fc6cdeb',
+210 silly install resolved     _from: '@angular/http@>=2.0.0-rc.1 <3.0.0',
+210 silly install resolved     _resolved: 'https://registry.npmjs.org/@angular/http/-/http-2.0.0-rc.1.tgz',
+210 silly install resolved     _npmVersion: '3.8.7',
+210 silly install resolved     _nodeVersion: '5.4.1',
+210 silly install resolved     _npmUser: { name: 'angular', email: 'angular-core+npm@google.com' },
+210 silly install resolved     dist:
+210 silly install resolved      { shasum: '9be6485e74f4edbcdc856f04235d9b467fc6cdeb',
+210 silly install resolved        tarball: 'https://registry.npmjs.org/@angular/http/-/http-2.0.0-rc.1.tgz' },
+210 silly install resolved     maintainers: [ [Object] ],
+210 silly install resolved     _npmOperationalInternal:
+210 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+210 silly install resolved        tmp: 'tmp/http-2.0.0-rc.1.tgz_1462310721571_0.5386864563915879' },
+210 silly install resolved     directories: {},
+210 silly install resolved     readme: 'ERROR: No README data found!' } ]
+211 info install @angular/http@2.0.0-rc.1 into D:\dawnlight\communityApp\communityApp2
+212 info installOne @angular/http@2.0.0-rc.1
+213 verbose installOne of @angular/http to D:\dawnlight\communityApp\communityApp2 not in flight; installing
+214 verbose lock using C:\Users\Lotus\AppData\Roaming\npm-cache\_locks\angular-http-ef24e012399aa393.lock for D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http
+215 silly install write writing @angular/http 2.0.0-rc.1 to D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http
+216 verbose unbuild node_modules\@angular\http
+217 silly gentlyRm D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http is being purged from base D:\dawnlight\communityApp\communityApp2
+218 verbose gentlyRm don't care about contents; nuking D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http
+219 verbose tar unpack C:\Users\Lotus\AppData\Roaming\npm-cache\@angular\http\2.0.0-rc.1\package.tgz
+220 verbose tar unpacking to D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http
+221 silly gentlyRm D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http is being purged
+222 verbose gentlyRm don't care about contents; nuking D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http
+223 silly gunzTarPerm modes [ '777', '666' ]
+224 silly gunzTarPerm extractEntry package.json
+225 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+226 silly gunzTarPerm extractEntry index.js
+227 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+228 silly gunzTarPerm extractEntry http.js
+229 silly gunzTarPerm modified mode [ 'http.js', 420, 438 ]
+230 silly gunzTarPerm extractEntry http.umd.js
+231 silly gunzTarPerm modified mode [ 'http.umd.js', 420, 438 ]
+232 silly gunzTarPerm extractEntry testing.js
+233 silly gunzTarPerm modified mode [ 'testing.js', 420, 438 ]
+234 silly gunzTarPerm extractEntry esm/index.js
+235 silly gunzTarPerm modified mode [ 'esm/index.js', 420, 438 ]
+236 silly gunzTarPerm extractEntry esm/http.js
+237 silly gunzTarPerm modified mode [ 'esm/http.js', 420, 438 ]
+238 silly gunzTarPerm extractEntry esm/testing.js
+239 silly gunzTarPerm modified mode [ 'esm/testing.js', 420, 438 ]
+240 silly gunzTarPerm extractEntry esm/index.js.map
+241 silly gunzTarPerm modified mode [ 'esm/index.js.map', 420, 438 ]
+242 silly gunzTarPerm extractEntry esm/index.d.ts
+243 silly gunzTarPerm modified mode [ 'esm/index.d.ts', 420, 438 ]
+244 silly gunzTarPerm extractEntry esm/http.d.ts
+245 silly gunzTarPerm modified mode [ 'esm/http.d.ts', 420, 438 ]
+246 silly gunzTarPerm extractEntry esm/http.js.map
+247 silly gunzTarPerm modified mode [ 'esm/http.js.map', 420, 438 ]
+248 silly gunzTarPerm extractEntry esm/src/http.js
+249 silly gunzTarPerm modified mode [ 'esm/src/http.js', 420, 438 ]
+250 silly gunzTarPerm extractEntry esm/src/base_request_options.js
+251 silly gunzTarPerm modified mode [ 'esm/src/base_request_options.js', 420, 438 ]
+252 silly gunzTarPerm extractEntry esm/src/base_response_options.js
+253 silly gunzTarPerm modified mode [ 'esm/src/base_response_options.js', 420, 438 ]
+254 silly gunzTarPerm extractEntry esm/src/enums.js
+255 silly gunzTarPerm modified mode [ 'esm/src/enums.js', 420, 438 ]
+256 silly gunzTarPerm extractEntry esm/src/headers.js
+257 silly gunzTarPerm modified mode [ 'esm/src/headers.js', 420, 438 ]
+258 silly gunzTarPerm extractEntry esm/src/http_utils.js
+259 silly gunzTarPerm modified mode [ 'esm/src/http_utils.js', 420, 438 ]
+260 silly gunzTarPerm extractEntry esm/src/interfaces.js
+261 silly gunzTarPerm modified mode [ 'esm/src/interfaces.js', 420, 438 ]
+262 silly gunzTarPerm extractEntry esm/src/static_request.js
+263 silly gunzTarPerm modified mode [ 'esm/src/static_request.js', 420, 438 ]
+264 silly gunzTarPerm extractEntry esm/src/static_response.js
+265 silly gunzTarPerm modified mode [ 'esm/src/static_response.js', 420, 438 ]
+266 silly gunzTarPerm extractEntry esm/src/url_search_params.js
+267 silly gunzTarPerm modified mode [ 'esm/src/url_search_params.js', 420, 438 ]
+268 silly gunzTarPerm extractEntry esm/src/base_request_options.js.map
+269 silly gunzTarPerm modified mode [ 'esm/src/base_request_options.js.map', 420, 438 ]
+270 silly gunzTarPerm extractEntry esm/src/enums.js.map
+271 silly gunzTarPerm modified mode [ 'esm/src/enums.js.map', 420, 438 ]
+272 silly gunzTarPerm extractEntry esm/src/facade/exception_handler.js
+273 silly gunzTarPerm modified mode [ 'esm/src/facade/exception_handler.js', 420, 438 ]
+274 silly gunzTarPerm extractEntry esm/src/facade/collection.js
+275 silly gunzTarPerm modified mode [ 'esm/src/facade/collection.js', 420, 438 ]
+276 silly gunzTarPerm extractEntry esm/src/facade/base_wrapped_exception.js
+277 silly gunzTarPerm modified mode [ 'esm/src/facade/base_wrapped_exception.js', 420, 438 ]
+278 silly gunzTarPerm extractEntry esm/src/facade/exceptions.js
+279 silly gunzTarPerm modified mode [ 'esm/src/facade/exceptions.js', 420, 438 ]
+280 silly gunzTarPerm extractEntry esm/src/facade/lang.js
+281 silly gunzTarPerm modified mode [ 'esm/src/facade/lang.js', 420, 438 ]
+282 silly gunzTarPerm extractEntry esm/src/facade/collection.js.map
+283 silly gunzTarPerm modified mode [ 'esm/src/facade/collection.js.map', 420, 438 ]
+284 silly gunzTarPerm extractEntry esm/src/facade/collection.metadata.json
+285 silly gunzTarPerm modified mode [ 'esm/src/facade/collection.metadata.json', 420, 438 ]
+286 silly gunzTarPerm extractEntry esm/src/facade/exception_handler.d.ts
+287 silly gunzTarPerm modified mode [ 'esm/src/facade/exception_handler.d.ts', 420, 438 ]
+288 silly gunzTarPerm extractEntry esm/src/facade/base_wrapped_exception.js.map
+289 silly gunzTarPerm modified mode [ 'esm/src/facade/base_wrapped_exception.js.map', 420, 438 ]
+290 silly gunzTarPerm extractEntry esm/src/facade/exception_handler.js.map
+291 silly gunzTarPerm modified mode [ 'esm/src/facade/exception_handler.js.map', 420, 438 ]
+292 silly gunzTarPerm extractEntry esm/src/facade/exceptions.d.ts
+293 silly gunzTarPerm modified mode [ 'esm/src/facade/exceptions.d.ts', 420, 438 ]
+294 silly gunzTarPerm extractEntry esm/src/facade/collection.d.ts
+295 silly gunzTarPerm modified mode [ 'esm/src/facade/collection.d.ts', 420, 438 ]
+296 silly gunzTarPerm extractEntry esm/src/facade/exceptions.js.map
+297 silly gunzTarPerm modified mode [ 'esm/src/facade/exceptions.js.map', 420, 438 ]
+298 silly gunzTarPerm extractEntry esm/src/facade/lang.d.ts
+299 silly gunzTarPerm modified mode [ 'esm/src/facade/lang.d.ts', 420, 438 ]
+300 silly gunzTarPerm extractEntry esm/src/facade/base_wrapped_exception.d.ts
+301 silly gunzTarPerm modified mode [ 'esm/src/facade/base_wrapped_exception.d.ts', 420, 438 ]
+302 silly gunzTarPerm extractEntry esm/src/facade/lang.js.map
+303 silly gunzTarPerm modified mode [ 'esm/src/facade/lang.js.map', 420, 438 ]
+304 silly gunzTarPerm extractEntry esm/src/facade/lang.metadata.json
+305 silly gunzTarPerm modified mode [ 'esm/src/facade/lang.metadata.json', 420, 438 ]
+306 silly gunzTarPerm extractEntry esm/src/headers.d.ts
+307 silly gunzTarPerm modified mode [ 'esm/src/headers.d.ts', 420, 438 ]
+308 silly gunzTarPerm extractEntry esm/src/base_request_options.metadata.json
+309 silly gunzTarPerm modified mode [ 'esm/src/base_request_options.metadata.json', 420, 438 ]
+310 silly gunzTarPerm extractEntry esm/src/headers.js.map
+311 silly gunzTarPerm modified mode [ 'esm/src/headers.js.map', 420, 438 ]
+312 silly gunzTarPerm extractEntry esm/src/http.d.ts
+313 silly gunzTarPerm modified mode [ 'esm/src/http.d.ts', 420, 438 ]
+314 silly gunzTarPerm extractEntry esm/src/base_request_options.d.ts
+315 silly gunzTarPerm modified mode [ 'esm/src/base_request_options.d.ts', 420, 438 ]
+316 silly gunzTarPerm extractEntry esm/src/http.js.map
+317 silly gunzTarPerm modified mode [ 'esm/src/http.js.map', 420, 438 ]
+318 silly gunzTarPerm extractEntry esm/src/http.metadata.json
+319 silly gunzTarPerm modified mode [ 'esm/src/http.metadata.json', 420, 438 ]
+320 silly gunzTarPerm extractEntry esm/src/http_utils.d.ts
+321 silly gunzTarPerm modified mode [ 'esm/src/http_utils.d.ts', 420, 438 ]
+322 silly gunzTarPerm extractEntry esm/src/base_response_options.d.ts
+323 silly gunzTarPerm modified mode [ 'esm/src/base_response_options.d.ts', 420, 438 ]
+324 silly gunzTarPerm extractEntry esm/src/http_utils.js.map
+325 silly gunzTarPerm modified mode [ 'esm/src/http_utils.js.map', 420, 438 ]
+326 silly gunzTarPerm extractEntry esm/src/interfaces.d.ts
+327 silly gunzTarPerm modified mode [ 'esm/src/interfaces.d.ts', 420, 438 ]
+328 silly gunzTarPerm extractEntry esm/src/backends/browser_xhr.js
+329 silly gunzTarPerm modified mode [ 'esm/src/backends/browser_xhr.js', 420, 438 ]
+330 silly gunzTarPerm extractEntry esm/src/backends/browser_jsonp.js
+331 silly gunzTarPerm modified mode [ 'esm/src/backends/browser_jsonp.js', 420, 438 ]
+332 silly gunzTarPerm extractEntry esm/src/backends/jsonp_backend.js
+333 silly gunzTarPerm modified mode [ 'esm/src/backends/jsonp_backend.js', 420, 438 ]
+334 silly gunzTarPerm extractEntry esm/src/backends/xhr_backend.js
+335 silly gunzTarPerm modified mode [ 'esm/src/backends/xhr_backend.js', 420, 438 ]
+336 silly gunzTarPerm extractEntry esm/src/backends/jsonp_backend.d.ts
+337 silly gunzTarPerm modified mode [ 'esm/src/backends/jsonp_backend.d.ts', 420, 438 ]
+338 silly gunzTarPerm extractEntry esm/src/backends/browser_jsonp.d.ts
+339 silly gunzTarPerm modified mode [ 'esm/src/backends/browser_jsonp.d.ts', 420, 438 ]
+340 silly gunzTarPerm extractEntry esm/src/backends/browser_xhr.js.map
+341 silly gunzTarPerm modified mode [ 'esm/src/backends/browser_xhr.js.map', 420, 438 ]
+342 silly gunzTarPerm extractEntry esm/src/backends/browser_xhr.metadata.json
+343 silly gunzTarPerm modified mode [ 'esm/src/backends/browser_xhr.metadata.json', 420, 438 ]
+344 silly gunzTarPerm extractEntry esm/src/backends/browser_jsonp.js.map
+345 silly gunzTarPerm modified mode [ 'esm/src/backends/browser_jsonp.js.map', 420, 438 ]
+346 silly gunzTarPerm extractEntry esm/src/backends/browser_jsonp.metadata.json
+347 silly gunzTarPerm modified mode [ 'esm/src/backends/browser_jsonp.metadata.json', 420, 438 ]
+348 silly gunzTarPerm extractEntry esm/src/backends/jsonp_backend.js.map
+349 silly gunzTarPerm modified mode [ 'esm/src/backends/jsonp_backend.js.map', 420, 438 ]
+350 silly gunzTarPerm extractEntry esm/src/backends/jsonp_backend.metadata.json
+351 silly gunzTarPerm modified mode [ 'esm/src/backends/jsonp_backend.metadata.json', 420, 438 ]
+352 silly gunzTarPerm extractEntry esm/src/backends/xhr_backend.d.ts
+353 silly gunzTarPerm modified mode [ 'esm/src/backends/xhr_backend.d.ts', 420, 438 ]
+354 silly gunzTarPerm extractEntry esm/src/backends/browser_xhr.d.ts
+355 silly gunzTarPerm modified mode [ 'esm/src/backends/browser_xhr.d.ts', 420, 438 ]
+356 silly gunzTarPerm extractEntry esm/src/backends/xhr_backend.js.map
+357 silly gunzTarPerm modified mode [ 'esm/src/backends/xhr_backend.js.map', 420, 438 ]
+358 silly gunzTarPerm extractEntry esm/src/backends/xhr_backend.metadata.json
+359 silly gunzTarPerm modified mode [ 'esm/src/backends/xhr_backend.metadata.json', 420, 438 ]
+360 silly gunzTarPerm extractEntry esm/src/interfaces.js.map
+361 silly gunzTarPerm modified mode [ 'esm/src/interfaces.js.map', 420, 438 ]
+362 silly gunzTarPerm extractEntry esm/src/static_request.d.ts
+363 silly gunzTarPerm modified mode [ 'esm/src/static_request.d.ts', 420, 438 ]
+364 silly gunzTarPerm extractEntry esm/src/base_response_options.js.map
+365 silly gunzTarPerm modified mode [ 'esm/src/base_response_options.js.map', 420, 438 ]
+366 silly gunzTarPerm extractEntry esm/src/static_request.js.map
+367 silly gunzTarPerm modified mode [ 'esm/src/static_request.js.map', 420, 438 ]
+368 silly gunzTarPerm extractEntry esm/src/static_response.d.ts
+369 silly gunzTarPerm modified mode [ 'esm/src/static_response.d.ts', 420, 438 ]
+370 silly gunzTarPerm extractEntry esm/src/base_response_options.metadata.json
+371 silly gunzTarPerm modified mode [ 'esm/src/base_response_options.metadata.json', 420, 438 ]
+372 silly gunzTarPerm extractEntry esm/src/static_response.js.map
+373 silly gunzTarPerm modified mode [ 'esm/src/static_response.js.map', 420, 438 ]
+374 silly gunzTarPerm extractEntry esm/src/url_search_params.d.ts
+375 silly gunzTarPerm modified mode [ 'esm/src/url_search_params.d.ts', 420, 438 ]
+376 silly gunzTarPerm extractEntry esm/src/enums.d.ts
+377 silly gunzTarPerm modified mode [ 'esm/src/enums.d.ts', 420, 438 ]
+378 silly gunzTarPerm extractEntry esm/src/url_search_params.js.map
+379 silly gunzTarPerm modified mode [ 'esm/src/url_search_params.js.map', 420, 438 ]
+380 silly gunzTarPerm extractEntry esm/testing/mock_backend.js
+381 silly gunzTarPerm modified mode [ 'esm/testing/mock_backend.js', 420, 438 ]
+382 silly gunzTarPerm extractEntry esm/testing/mock_backend.d.ts
+383 silly gunzTarPerm modified mode [ 'esm/testing/mock_backend.d.ts', 420, 438 ]
+384 silly gunzTarPerm extractEntry esm/testing/mock_backend.js.map
+385 silly gunzTarPerm modified mode [ 'esm/testing/mock_backend.js.map', 420, 438 ]
+386 silly gunzTarPerm extractEntry esm/testing/mock_backend.metadata.json
+387 silly gunzTarPerm modified mode [ 'esm/testing/mock_backend.metadata.json', 420, 438 ]
+388 silly gunzTarPerm extractEntry esm/testing.d.ts
+389 silly gunzTarPerm modified mode [ 'esm/testing.d.ts', 420, 438 ]
+390 silly gunzTarPerm extractEntry esm/http.metadata.json
+391 silly gunzTarPerm modified mode [ 'esm/http.metadata.json', 420, 438 ]
+392 silly gunzTarPerm extractEntry esm/testing.js.map
+393 silly gunzTarPerm modified mode [ 'esm/testing.js.map', 420, 438 ]
+394 silly gunzTarPerm extractEntry index.d.ts
+395 silly gunzTarPerm modified mode [ 'index.d.ts', 420, 438 ]
+396 silly gunzTarPerm extractEntry http.d.ts
+397 silly gunzTarPerm modified mode [ 'http.d.ts', 420, 438 ]
+398 silly gunzTarPerm extractEntry index.js.map
+399 silly gunzTarPerm modified mode [ 'index.js.map', 420, 438 ]
+400 silly gunzTarPerm extractEntry http.js.map
+401 silly gunzTarPerm modified mode [ 'http.js.map', 420, 438 ]
+402 silly gunzTarPerm extractEntry src/http.js
+403 silly gunzTarPerm modified mode [ 'src/http.js', 420, 438 ]
+404 silly gunzTarPerm extractEntry src/base_request_options.js
+405 silly gunzTarPerm modified mode [ 'src/base_request_options.js', 420, 438 ]
+406 silly gunzTarPerm extractEntry src/base_response_options.js
+407 silly gunzTarPerm modified mode [ 'src/base_response_options.js', 420, 438 ]
+408 silly gunzTarPerm extractEntry src/enums.js
+409 silly gunzTarPerm modified mode [ 'src/enums.js', 420, 438 ]
+410 silly gunzTarPerm extractEntry src/headers.js
+411 silly gunzTarPerm modified mode [ 'src/headers.js', 420, 438 ]
+412 silly gunzTarPerm extractEntry src/http_utils.js
+413 silly gunzTarPerm modified mode [ 'src/http_utils.js', 420, 438 ]
+414 silly gunzTarPerm extractEntry src/interfaces.js
+415 silly gunzTarPerm modified mode [ 'src/interfaces.js', 420, 438 ]
+416 silly gunzTarPerm extractEntry src/static_request.js
+417 silly gunzTarPerm modified mode [ 'src/static_request.js', 420, 438 ]
+418 silly gunzTarPerm extractEntry src/static_response.js
+419 silly gunzTarPerm modified mode [ 'src/static_response.js', 420, 438 ]
+420 silly gunzTarPerm extractEntry src/url_search_params.js
+421 silly gunzTarPerm modified mode [ 'src/url_search_params.js', 420, 438 ]
+422 silly gunzTarPerm extractEntry src/base_request_options.js.map
+423 silly gunzTarPerm modified mode [ 'src/base_request_options.js.map', 420, 438 ]
+424 silly gunzTarPerm extractEntry src/enums.js.map
+425 silly gunzTarPerm modified mode [ 'src/enums.js.map', 420, 438 ]
+426 silly gunzTarPerm extractEntry src/facade/exception_handler.js
+427 silly gunzTarPerm modified mode [ 'src/facade/exception_handler.js', 420, 438 ]
+428 silly gunzTarPerm extractEntry src/facade/collection.js
+429 silly gunzTarPerm modified mode [ 'src/facade/collection.js', 420, 438 ]
+430 silly gunzTarPerm extractEntry src/facade/base_wrapped_exception.js
+431 silly gunzTarPerm modified mode [ 'src/facade/base_wrapped_exception.js', 420, 438 ]
+432 silly gunzTarPerm extractEntry src/facade/exceptions.js
+433 silly gunzTarPerm modified mode [ 'src/facade/exceptions.js', 420, 438 ]
+434 silly gunzTarPerm extractEntry src/facade/lang.js
+435 silly gunzTarPerm modified mode [ 'src/facade/lang.js', 420, 438 ]
+436 silly gunzTarPerm extractEntry src/facade/collection.js.map
+437 silly gunzTarPerm modified mode [ 'src/facade/collection.js.map', 420, 438 ]
+438 silly gunzTarPerm extractEntry src/facade/collection.metadata.json
+439 silly gunzTarPerm modified mode [ 'src/facade/collection.metadata.json', 420, 438 ]
+440 silly gunzTarPerm extractEntry src/facade/exception_handler.d.ts
+441 silly gunzTarPerm modified mode [ 'src/facade/exception_handler.d.ts', 420, 438 ]
+442 silly gunzTarPerm extractEntry src/facade/base_wrapped_exception.js.map
+443 silly gunzTarPerm modified mode [ 'src/facade/base_wrapped_exception.js.map', 420, 438 ]
+444 silly gunzTarPerm extractEntry src/facade/exception_handler.js.map
+445 silly gunzTarPerm modified mode [ 'src/facade/exception_handler.js.map', 420, 438 ]
+446 silly gunzTarPerm extractEntry src/facade/exceptions.d.ts
+447 silly gunzTarPerm modified mode [ 'src/facade/exceptions.d.ts', 420, 438 ]
+448 silly gunzTarPerm extractEntry src/facade/collection.d.ts
+449 silly gunzTarPerm modified mode [ 'src/facade/collection.d.ts', 420, 438 ]
+450 silly gunzTarPerm extractEntry src/facade/exceptions.js.map
+451 silly gunzTarPerm modified mode [ 'src/facade/exceptions.js.map', 420, 438 ]
+452 silly gunzTarPerm extractEntry src/facade/lang.d.ts
+453 silly gunzTarPerm modified mode [ 'src/facade/lang.d.ts', 420, 438 ]
+454 silly gunzTarPerm extractEntry src/facade/base_wrapped_exception.d.ts
+455 silly gunzTarPerm modified mode [ 'src/facade/base_wrapped_exception.d.ts', 420, 438 ]
+456 silly gunzTarPerm extractEntry src/facade/lang.js.map
+457 silly gunzTarPerm modified mode [ 'src/facade/lang.js.map', 420, 438 ]
+458 silly gunzTarPerm extractEntry src/facade/lang.metadata.json
+459 silly gunzTarPerm modified mode [ 'src/facade/lang.metadata.json', 420, 438 ]
+460 silly gunzTarPerm extractEntry src/headers.d.ts
+461 silly gunzTarPerm modified mode [ 'src/headers.d.ts', 420, 438 ]
+462 silly gunzTarPerm extractEntry src/base_request_options.metadata.json
+463 silly gunzTarPerm modified mode [ 'src/base_request_options.metadata.json', 420, 438 ]
+464 silly gunzTarPerm extractEntry src/headers.js.map
+465 silly gunzTarPerm modified mode [ 'src/headers.js.map', 420, 438 ]
+466 silly gunzTarPerm extractEntry src/http.d.ts
+467 silly gunzTarPerm modified mode [ 'src/http.d.ts', 420, 438 ]
+468 silly gunzTarPerm extractEntry src/base_request_options.d.ts
+469 silly gunzTarPerm modified mode [ 'src/base_request_options.d.ts', 420, 438 ]
+470 silly gunzTarPerm extractEntry src/http.js.map
+471 silly gunzTarPerm modified mode [ 'src/http.js.map', 420, 438 ]
+472 silly gunzTarPerm extractEntry src/http.metadata.json
+473 silly gunzTarPerm modified mode [ 'src/http.metadata.json', 420, 438 ]
+474 silly gunzTarPerm extractEntry src/http_utils.d.ts
+475 silly gunzTarPerm modified mode [ 'src/http_utils.d.ts', 420, 438 ]
+476 silly gunzTarPerm extractEntry src/base_response_options.d.ts
+477 silly gunzTarPerm modified mode [ 'src/base_response_options.d.ts', 420, 438 ]
+478 silly gunzTarPerm extractEntry src/http_utils.js.map
+479 silly gunzTarPerm modified mode [ 'src/http_utils.js.map', 420, 438 ]
+480 silly gunzTarPerm extractEntry src/interfaces.d.ts
+481 silly gunzTarPerm modified mode [ 'src/interfaces.d.ts', 420, 438 ]
+482 silly gunzTarPerm extractEntry src/backends/browser_xhr.js
+483 silly gunzTarPerm modified mode [ 'src/backends/browser_xhr.js', 420, 438 ]
+484 silly gunzTarPerm extractEntry src/backends/browser_jsonp.js
+485 silly gunzTarPerm modified mode [ 'src/backends/browser_jsonp.js', 420, 438 ]
+486 silly gunzTarPerm extractEntry src/backends/jsonp_backend.js
+487 silly gunzTarPerm modified mode [ 'src/backends/jsonp_backend.js', 420, 438 ]
+488 silly gunzTarPerm extractEntry src/backends/xhr_backend.js
+489 silly gunzTarPerm modified mode [ 'src/backends/xhr_backend.js', 420, 438 ]
+490 silly gunzTarPerm extractEntry src/backends/jsonp_backend.d.ts
+491 silly gunzTarPerm modified mode [ 'src/backends/jsonp_backend.d.ts', 420, 438 ]
+492 silly gunzTarPerm extractEntry src/backends/browser_jsonp.d.ts
+493 silly gunzTarPerm modified mode [ 'src/backends/browser_jsonp.d.ts', 420, 438 ]
+494 silly gunzTarPerm extractEntry src/backends/browser_xhr.js.map
+495 silly gunzTarPerm modified mode [ 'src/backends/browser_xhr.js.map', 420, 438 ]
+496 silly gunzTarPerm extractEntry src/backends/browser_xhr.metadata.json
+497 silly gunzTarPerm modified mode [ 'src/backends/browser_xhr.metadata.json', 420, 438 ]
+498 silly gunzTarPerm extractEntry src/backends/browser_jsonp.js.map
+499 silly gunzTarPerm modified mode [ 'src/backends/browser_jsonp.js.map', 420, 438 ]
+500 silly gunzTarPerm extractEntry src/backends/browser_jsonp.metadata.json
+501 silly gunzTarPerm modified mode [ 'src/backends/browser_jsonp.metadata.json', 420, 438 ]
+502 silly gunzTarPerm extractEntry src/backends/jsonp_backend.js.map
+503 silly gunzTarPerm modified mode [ 'src/backends/jsonp_backend.js.map', 420, 438 ]
+504 silly gunzTarPerm extractEntry src/backends/jsonp_backend.metadata.json
+505 silly gunzTarPerm modified mode [ 'src/backends/jsonp_backend.metadata.json', 420, 438 ]
+506 silly gunzTarPerm extractEntry src/backends/xhr_backend.d.ts
+507 silly gunzTarPerm modified mode [ 'src/backends/xhr_backend.d.ts', 420, 438 ]
+508 silly gunzTarPerm extractEntry src/backends/browser_xhr.d.ts
+509 silly gunzTarPerm modified mode [ 'src/backends/browser_xhr.d.ts', 420, 438 ]
+510 silly gunzTarPerm extractEntry src/backends/xhr_backend.js.map
+511 silly gunzTarPerm modified mode [ 'src/backends/xhr_backend.js.map', 420, 438 ]
+512 silly gunzTarPerm extractEntry src/backends/xhr_backend.metadata.json
+513 silly gunzTarPerm modified mode [ 'src/backends/xhr_backend.metadata.json', 420, 438 ]
+514 silly gunzTarPerm extractEntry src/interfaces.js.map
+515 silly gunzTarPerm modified mode [ 'src/interfaces.js.map', 420, 438 ]
+516 silly gunzTarPerm extractEntry src/static_request.d.ts
+517 silly gunzTarPerm modified mode [ 'src/static_request.d.ts', 420, 438 ]
+518 silly gunzTarPerm extractEntry src/base_response_options.js.map
+519 silly gunzTarPerm modified mode [ 'src/base_response_options.js.map', 420, 438 ]
+520 silly gunzTarPerm extractEntry src/static_request.js.map
+521 silly gunzTarPerm modified mode [ 'src/static_request.js.map', 420, 438 ]
+522 silly gunzTarPerm extractEntry src/static_response.d.ts
+523 silly gunzTarPerm modified mode [ 'src/static_response.d.ts', 420, 438 ]
+524 silly gunzTarPerm extractEntry src/base_response_options.metadata.json
+525 silly gunzTarPerm modified mode [ 'src/base_response_options.metadata.json', 420, 438 ]
+526 silly gunzTarPerm extractEntry src/static_response.js.map
+527 silly gunzTarPerm modified mode [ 'src/static_response.js.map', 420, 438 ]
+528 silly gunzTarPerm extractEntry src/url_search_params.d.ts
+529 silly gunzTarPerm modified mode [ 'src/url_search_params.d.ts', 420, 438 ]
+530 silly gunzTarPerm extractEntry src/enums.d.ts
+531 silly gunzTarPerm modified mode [ 'src/enums.d.ts', 420, 438 ]
+532 silly gunzTarPerm extractEntry src/url_search_params.js.map
+533 silly gunzTarPerm modified mode [ 'src/url_search_params.js.map', 420, 438 ]
+534 silly gunzTarPerm extractEntry testing/mock_backend.js
+535 silly gunzTarPerm modified mode [ 'testing/mock_backend.js', 420, 438 ]
+536 silly gunzTarPerm extractEntry testing/mock_backend.d.ts
+537 silly gunzTarPerm modified mode [ 'testing/mock_backend.d.ts', 420, 438 ]
+538 silly gunzTarPerm extractEntry testing/mock_backend.js.map
+539 silly gunzTarPerm modified mode [ 'testing/mock_backend.js.map', 420, 438 ]
+540 silly gunzTarPerm extractEntry testing/mock_backend.metadata.json
+541 silly gunzTarPerm modified mode [ 'testing/mock_backend.metadata.json', 420, 438 ]
+542 silly gunzTarPerm extractEntry testing.d.ts
+543 silly gunzTarPerm modified mode [ 'testing.d.ts', 420, 438 ]
+544 silly gunzTarPerm extractEntry http.metadata.json
+545 silly gunzTarPerm modified mode [ 'http.metadata.json', 420, 438 ]
+546 silly gunzTarPerm extractEntry testing.js.map
+547 silly gunzTarPerm modified mode [ 'testing.js.map', 420, 438 ]
+548 verbose write writing to D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http\package.json
+549 info preinstall @angular/http@2.0.0-rc.1
+550 verbose readDependencies loading dependencies from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http\package.json
+551 silly prepareForInstallMany adding rxjs@5.0.0-beta.6 from @angular/http peerDependencies
+552 warn peerDependencies The peer dependency rxjs@5.0.0-beta.6 included from @angular/http will no
+553 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+554 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+555 verbose readDependencies loading dependencies from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http\package.json
+556 silly install resolved []
+557 verbose about to build D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http
+558 info build D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http
+559 info linkStuff @angular/http@2.0.0-rc.1
+560 silly linkStuff @angular/http@2.0.0-rc.1 has D:\dawnlight\communityApp\communityApp2\node_modules as its parent node_modules
+561 verbose linkBins @angular/http@2.0.0-rc.1
+562 verbose linkMans @angular/http@2.0.0-rc.1
+563 verbose rebuildBundles @angular/http@2.0.0-rc.1
+564 info install @angular/http@2.0.0-rc.1
+565 info postinstall @angular/http@2.0.0-rc.1
+566 verbose readDependencies loading dependencies from D:\dawnlight\communityApp\communityApp2\package.json
+567 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\angular2\package.json
+568 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt\package.json
+569 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\angularfire2\package.json
+570 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\del\package.json
+571 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\es6-shim\package.json
+572 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\firebase\package.json
+573 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\gulp\package.json
+574 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\gulp-watch\package.json
+575 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-angular\package.json
+576 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-browserify-typescript\package.json
+577 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-fonts-copy\package.json
+578 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-html-copy\package.json
+579 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-sass-build\package.json
+580 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-gulp-scripts-copy\package.json
+581 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionic-native\package.json
+582 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\ionicons\package.json
+583 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\reflect-metadata\package.json
+584 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\run-sequence\package.json
+585 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\rxjs\package.json
+586 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\zone.js\package.json
+587 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\.bin\gulp\package.json
+588 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\.bin\gulp.cmd\package.json
+589 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\common\package.json
+590 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\compiler\package.json
+591 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\core\package.json
+592 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http\package.json
+593 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\platform-browser\package.json
+594 verbose targetResolver reading package data from D:\dawnlight\communityApp\communityApp2\node_modules\@angular\platform-browser-dynamic\package.json
+595 verbose already installed skipping rxjs@5.0.0-beta.6 D:\dawnlight\communityApp\communityApp2
+596 silly install resolved []
+597 verbose unlock done using C:\Users\Lotus\AppData\Roaming\npm-cache\_locks\angular-http-ef24e012399aa393.lock for D:\dawnlight\communityApp\communityApp2\node_modules\@angular\http
+598 verbose unlock done using C:\Users\Lotus\AppData\Roaming\npm-cache\_locks\angular2-jwt-8cdae23cb82ca432.lock for D:\dawnlight\communityApp\communityApp2\node_modules\angular2-jwt
+599 verbose validateInstall loading D:\dawnlight\communityApp\communityApp2\package.json for validation
+600 verbose stack Error: The package rxjs does not satisfy its siblings' peerDependencies requirements!
+600 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+600 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:267:7
+600 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:138:5
+600 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+600 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+600 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+600 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+600 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+600 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+600 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:251:14
+601 verbose cwd D:\dawnlight\communityApp\communityApp2
+602 error Windows_NT 6.1.7601
+603 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "angular2-jwt"
+604 error node v0.12.7
+605 error npm  v2.11.3
+606 error code EPEERINVALID
+607 error peerinvalid The package rxjs does not satisfy its siblings' peerDependencies requirements!
+608 verbose exit [ 1, true ]
