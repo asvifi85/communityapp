@@ -7,7 +7,7 @@ import {Observable} from "rxjs/Observable";
 export class FirebaseService {
 
 
-    baseRef = new Firebase('https://clearlyinnovative-firebasestarterapp.firebaseio.com/');
+    baseRef = new Firebase('https://community-app.firebaseio.com/');
     constructor() {
         
         // check for changes in auth status
@@ -24,13 +24,13 @@ export class FirebaseService {
         this.baseRef.unauth()
     }
 
-    login(_username) {
+    login(_username,password) {
         var that = this
 
         return new Observable(observer => {
             that.baseRef.authWithPassword({
                 "email": _username,
-                "password": "password"
+                "password": password
             }, function(error, authData) {
                 if (error) {
                     console.log("Login Failed!", error);
@@ -42,7 +42,18 @@ export class FirebaseService {
             });
         });
     }
-
+	signup(username,password){
+			this.baseRef.createUser({
+  email    : username,
+  password : password
+}, function(error, userData) {
+  if (error) {
+    console.log("Error creating user:", error);
+  } else {
+    console.log("Successfully created user account with uid:", userData.uid);
+  }
+});
+	}
     getDataPrivate(_id, _callback) {
         var ref = this.baseRef.child('public-messages')
         ref = ref.child(_id)
