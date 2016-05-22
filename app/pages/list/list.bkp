@@ -1,0 +1,58 @@
+import {Page, Storage, LocalStorage,SqlStorage,NavController,Platform, NavParams} from 'ionic-angular';
+
+
+@Page({
+  templateUrl: 'build/pages/list/list.html'
+})
+export class ListPage {
+	 storage:any;	
+	 constructor(private platform: Platform , public profile: any[]) {
+        this.platform = platform;
+        this.profile = [];
+        this.platform.ready().then(() => {
+            this.storage = new Storage(SqlStorage);
+            this.refresh();
+        });
+    }
+	refresh() {
+        this.platform.ready().then(() => {
+            this.storage.query("SELECT * FROM profile").then((data) => {
+                this.profile = [];
+                if(data.res.rows.length > 0) {
+                    for(var i = 0; i < data.res.rows.length; i++) {
+                       /* this.profile.push({firstname: data.res.rows.item(i).firstname, lastname: data.res.rows.item(i).lastname});*/
+					   alert(JSON.stringify(data.res.rows.item(i)));
+                    }
+                }
+            }, (error) => {
+                console.log("ERROR -> " + JSON.stringify(error.err));
+            });
+        });
+    }
+ /* constructor(private nav: NavController, navParams: NavParams) {
+  
+				this.user = localStorage.getItem('name');
+	this.phone = localStorage.getItem('phone');
+	this.community =  localStorage.getItem('community'); */
+   /* // If we navigated to this page, we will have an item available as a nav param
+    this.selectedItem = navParams.get('item');
+
+    this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
+    'american-football', 'boat', 'bluetooth', 'build'];
+
+    this.items = [];
+    for(let i = 1; i < 11; i++) {
+      this.items.push({
+        title: 'Item ' + i,
+        note: 'This is item #' + i,
+        icon: this.icons[Math.floor(Math.random() * this.icons.length)]
+      });
+    }*/
+//}
+/*
+  itemTapped(event, item) {
+    this.nav.push(ListPage, {
+      item: item
+    });
+  }*/
+}

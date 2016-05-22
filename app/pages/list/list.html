@@ -6,16 +6,26 @@
 </ion-navbar>
 
 <ion-content>
+<center>
+  <img [src]="profile.profilePic" [alt]="profile.name" class="profilePic">
+</center>
+  <br>
+ 
   <ion-list>
-    <button ion-item *ngFor="#item of items" (click)="itemTapped($event, item)">
-      <ion-icon [name]="item.icon" item-left></ion-icon>
-      {{item.title}}
-      <div class="item-note" item-right>
-        {{item.note}}
+	<div class="item-note" item-right>
+       Name  {{name | async}}
       </div>
-    </button>
+	  <div class="item-note" item-right>
+       Email  {{email | async}}
+      </div>
+      <div class="item-note" item-right>
+       Phone   {{phone | async}}
+      </div>
+	  <div class="item-note" item-right>
+       Community  {{community  | async}}
+      </div>
+	  
+	
+   
   </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
 </ion-content>

@@ -1,22 +1,16 @@
-<!--
-<ion-navbar *navbar>
-  <button menuToggle>
-    <ion-icon name="menu"></ion-icon>
-  </button>
-  <ion-title>Getting Started</ion-title>
-</ion-navbar>
--->
 
 
-<ion-content padding class="getting-started">
 
-  <h3>Getting Started</h3>
+<ion-content padding class="getting-started" >
+<h3>Community App</h3>
+
+ <!--  <h3>Getting Started</h3>
   <p>
      Get it started!
   </p>
   <p>
     <button primary menuToggle>Toggle Menu</button>
-  </p>
+  </p> -->
 
 
       <div padding>
@@ -49,16 +43,31 @@
         </form>
 
         <form *ngSwitchWhen="'signup'" #signupCreds="ngForm" (ngSubmit)="signup(signupCreds.value)">
+		 <ion-item>
+            <ion-label>Name</ion-label>
+            <ion-input type="text" ngControl="name"></ion-input>
+          </ion-item>
           <ion-item>
-            <ion-label>Username</ion-label>
+            <ion-label>Email</ion-label>
             <ion-input type="text" ngControl="username"></ion-input>
           </ion-item>
+		  <ion-item>
+            <ion-label>Phone</ion-label>
+            <ion-input type="text" [(ngModel)]="phonenum" ngControl="phone"></ion-input>
+          </ion-item>	
 
           <ion-item>
             <ion-label>Password</ion-label>
             <ion-input type="password" ngControl="password"></ion-input>
           </ion-item>
-
+			<ion-item>
+        <ion-label stacked>Community</ion-label>
+        <ion-select ngControl="community" item-right>
+          <ion-option value="communityA">Community A</ion-option>
+          <ion-option value="communityB">Community B</ion-option>
+          <ion-option value="communityC">Community C</ion-option>
+        </ion-select>
+      </ion-item>
           <div padding>
             <button block type="submit">Signup</button>
           </div>

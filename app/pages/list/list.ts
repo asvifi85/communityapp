@@ -1,4 +1,5 @@
-import {Page, NavController, NavParams} from 'ionic-angular';
+import {Page, Storage, LocalStorage,SqlStorage,NavController, NavParams} from 'ionic-angular';
+
 
 
 @Page({
@@ -8,9 +9,24 @@ export class ListPage {
   selectedItem: any;
   icons: string[];
   items: Array<{title: string, note: string, icon: string}>;
-
-  constructor(private nav: NavController, navParams: NavParams) {
-    // If we navigated to this page, we will have an item available as a nav param
+  name: any;
+  email: any;
+  phone: any;
+  community: any;
+  profile: Object;
+  local: Storage = new Storage(LocalStorage);
+	
+  constructor(private nav: NavController,private navParams: NavParams
+  ) {
+	this.name = this.local.get('name');
+	this.phone = this.local.get('phone');
+	this.email = this.local.get('email');
+	this.community = this.local.get('community');
+	this.profile = {
+		profilePic: 'img/speakers/puppy.jpg',
+		name: 'puppy'
+	}
+   /* // If we navigated to this page, we will have an item available as a nav param
     this.selectedItem = navParams.get('item');
 
     this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
@@ -23,7 +39,7 @@ export class ListPage {
         note: 'This is item #' + i,
         icon: this.icons[Math.floor(Math.random() * this.icons.length)]
       });
-    }
+    }*/
   }
 
   itemTapped(event, item) {
