@@ -7,10 +7,20 @@
 
 <ion-content>
 <center>
-  <img [src]="profile.profilePic" [alt]="profile.name" class="profilePic">
-</center>
-  <br>
+ <ion-slides style="height: 50vh">
+    <ion-slide *ngFor="#image of images">
+      <ion-card>
+        <img [src]="image.src"  class="profilePic">
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
  
+  <button fab primary fab-bottom fab-center (click)="takePhoto()">
+    <ion-icon name="camera"></ion-icon>
+  </button>
+ 
+</center>
+  
   <ion-list>
 	<div class="item-note" item-right>
        Name  {{name | async}}

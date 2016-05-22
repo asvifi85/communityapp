@@ -3,6 +3,7 @@ import {provide} from 'angular2/core';
 import {StatusBar,Splashscreen} from 'ionic-native';
 import {GettingStartedPage} from './pages/getting-started/getting-started';
 import {ListPage} from './pages/list/list';
+import {NotificationsPage} from './pages/notifications/notifications';
 import {AuthHttp, AuthConfig, AUTH_PROVIDERS} from 'angular2-jwt';
 import {HTTP_PROVIDERS, Http} from 'angular2/http';
 import {FirebaseService} from './lib/firebaseService';
@@ -34,8 +35,11 @@ class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Getting Started', component: GettingStartedPage },
-      { title: 'List', component: ListPage }
+   //   { title: 'Getting Started', component: GettingStartedPage },
+      { title: 'List', component: ListPage },
+	  { title: 'Notifications', component: NotificationsPage }
+	  
+	  
     ];
 
   }
@@ -68,11 +72,11 @@ class MyApp {
 	else
 	this.openPage(GettingStartedPage);
    // this.menu.enable(!loggedIn, "loggedOutMenu");
-  }
+  }*/
   openPage(page) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
     let nav = this.app.getComponent('nav');
     nav.setRoot(page.component);
-  } */
+  } 
 }
